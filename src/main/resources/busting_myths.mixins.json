@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kleiders.bustingmyths.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"BustingMythsModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

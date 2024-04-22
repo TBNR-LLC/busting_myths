@@ -1,0 +1,58 @@
+{
+  "mod_elements": [
+    {
+      "name": "ChaseNoteBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "chase_note_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/kleiders/bustingmyths/block/ChaseNoteBlockBlock.java",
+          "src/main/resources/assets/busting_myths/models/item/chase_note_block.json",
+          "src/main/resources/assets/busting_myths/blockstates/chase_note_block.json",
+          "src/main/resources/assets/busting_myths/models/block/chase_note_block.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "chase",
+      "files": [
+        "chase"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "block.busting_myths.chase_note_block": "Chase Note Block",
+      "subtitles.chase": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "busting_myths",
+    "modName": "Busting Myths",
+    "version": "1.0.0",
+    "author": "uri_l, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "modElementsPackage": "com.kleiders.bustingmyths",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

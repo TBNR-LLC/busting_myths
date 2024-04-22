@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "busting_myths",
+  "version": "1.0.0",
+  "name": "Busting Myths",
+  "authors": [
+    "uri_l, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "accessWidener": "busting_myths.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kleiders.bustingmyths.BustingMythsMod"
+    ],
+    "client": [
+      "com.kleiders.bustingmyths.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "busting_myths.mixins.json"
+  ]
+}
